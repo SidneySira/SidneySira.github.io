@@ -1,0 +1,39 @@
+body {
+    background-image: url("harley-quinn.jpg");
+    background-image: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: white;
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+a:visited {
+    color: white;
+}
+#myheader{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333
+}
+#block{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#block:hover {
+    background-color: #111111;
+}
+.hi {
+    width: 100%;
+    margin-bottom: auto;
+}
+.class {
+    text-align: right;
+}
